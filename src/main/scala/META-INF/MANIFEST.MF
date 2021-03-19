@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Class-Path: akka-actor_2.12-2.5.17.jar scala-java8-compat_2.12-0.8.0.j
+ ar scalafxml-core-sfx8_2.12-0.4.jar scala-reflect.jar akka-protobuf_2
+ .12-2.5.17.jar scala-parser-combinators_2.12-1.1.1.jar scalafx_2.12-8
+ .0.181-R13.jar reactive-streams-1.0.2.jar scalafxml-core-macros-sfx8_
+ 2.12-0.4.jar akka-remote_2.12-2.5.17.jar ssl-config-core_2.12-0.2.4.j
+ ar config-1.3.3.jar aeron-client-1.9.3.jar netty-3.10.6.Final.jar sca
+ la-library.jar akka-testkit_2.12-2.5.17.jar akka-stream_2.12-2.5.17.j
+ ar agrona-0.9.18.jar aeron-driver-1.9.3.jar
+Main-Class: MainApp
+

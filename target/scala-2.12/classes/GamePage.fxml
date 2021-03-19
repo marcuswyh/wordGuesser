@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameController">
+   <children>
+      <Label layoutX="204.0" layoutY="55.0" text="Guess The Word!">
+         <font>
+            <Font name="Century Gothic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="118.0" text="Definition :">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="definitionLbl" layoutX="157.0" layoutY="119.0" text="Label" />
+      <Label layoutX="68.0" layoutY="159.0" text="Hint :">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="hintLbl" layoutX="111.0" layoutY="160.0" text="Label" />
+      <Label layoutX="67.0" layoutY="273.0" text="Your Answer :">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="answerTxt" layoutX="171.0" layoutY="270.0" onAction="#handleAnswer" prefHeight="25.0" prefWidth="317.0" />
+      <Button fx:id="submitBtn" layoutX="234.0" layoutY="326.0" mnemonicParsing="false" onAction="#handleAnswer" prefHeight="50.0" prefWidth="134.0" text="Submit Answer">
+         <font>
+            <Font name="Century Gothic Italic" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="495.0" layoutY="351.0" text="Round :">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="roundLbl" layoutX="547.0" layoutY="350.0" text="Label" />
+      <Label fx:id="wrongstatusLbl" layoutX="207.0" layoutY="239.0" text="Wrong answer, please try again." textFill="RED" visible="false">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

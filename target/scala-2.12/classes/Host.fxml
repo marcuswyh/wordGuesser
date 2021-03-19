@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="432.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HostController">
+   <children>
+      <TextField fx:id="addressTxt" layoutX="142.0" layoutY="224.0" />
+      <TextField fx:id="portTxt" editable="false" layoutX="142.0" layoutY="271.0" />
+      <Button fx:id="startBtn" layoutX="31.0" layoutY="338.0" mnemonicParsing="false" onAction="#handleStart" prefHeight="69.0" prefWidth="130.0" text="Start Game">
+         <font>
+            <Font name="Century Gothic Italic" size="12.0" />
+         </font></Button>
+      <TextField fx:id="usernameTxt" layoutX="142.0" layoutY="174.0" />
+      <ListView fx:id="clientList" layoutX="346.0" layoutY="149.0" prefHeight="246.0" prefWidth="200.0" />
+      <Label layoutX="346.0" layoutY="123.0" text="Users Joined :" />
+      <Label layoutX="68.0" layoutY="178.0" text="Username:" />
+      <Label layoutX="65.0" layoutY="228.0" text="IP Address:" />
+      <Label layoutX="52.0" layoutY="275.0" text="Port Number:" />
+      <Label layoutX="254.0" layoutY="40.0" text="Host">
+         <font>
+            <Font name="Century Gothic" size="36.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="291.0" layoutY="99.0" startX="-100.0" />
+      <Button fx:id="joinBtn" layoutX="189.0" layoutY="338.0" mnemonicParsing="false" onAction="#handleJoin" prefHeight="69.0" prefWidth="130.0" text="Join Game">
+         <font>
+            <Font name="Century Gothic Italic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

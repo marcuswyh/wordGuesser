@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="309.0" prefWidth="572.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClientController">
+   <children>
+      <Button fx:id="joinBtn" layoutX="402.0" layoutY="163.0" mnemonicParsing="false" onAction="#handleJoin" prefHeight="52.0" prefWidth="102.0" text="Join Host">
+         <font>
+            <Font name="Century Gothic Italic" size="12.0" />
+         </font></Button>
+      <TextField fx:id="addressTxt" layoutX="162.0" layoutY="189.0" />
+      <TextField fx:id="portTxt" layoutX="162.0" layoutY="235.0" />
+      <TextField fx:id="usernameTxt" layoutX="162.0" layoutY="140.0" />
+      <Label layoutX="88.0" layoutY="144.0" text="Username:" />
+      <Label layoutX="87.0" layoutY="193.0" text="IP Address:" />
+      <Label layoutX="72.0" layoutY="239.0" text="Port Number:" />
+      <Label layoutX="417.0" layoutY="239.0" text="Status:" />
+      <Label fx:id="statusLbl" layoutX="457.0" layoutY="239.0" text="Label" />
+      <Label layoutX="184.0" layoutY="32.0" text="JOIN GAME">
+         <font>
+            <Font name="Century Gothic" size="36.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="286.0" layoutY="92.0" startX="-100.0" />
+   </children>
+</AnchorPane>
